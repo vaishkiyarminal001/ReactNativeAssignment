@@ -1,6 +1,9 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import SignInScreen from './SignInScreen';
+import SignUpScreen from './SignUpScreen';
+import ForgotPasswordScreen from './ForgotPasswordScreen';
 
 export default function App() {
   return (
